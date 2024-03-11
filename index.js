@@ -70,7 +70,7 @@ app.get("/display", (req, res) => {
 })
 
 
-const port = 3000 || process.env.PORT;
+const port = 5130
 
 app.listen(port, () => {
     console.log("listening to server")
